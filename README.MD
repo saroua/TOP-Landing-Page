@@ -1,0 +1,1 @@
+This project is the last CSS project of The Odin Project in the foundation path
