@@ -168,3 +168,11 @@ h3{
     padding: 0;
     margin: 0;
 }
+
+/* Footer layout */
+
+footer{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
