@@ -130,6 +130,10 @@ h2{
 .third-section{
     padding: 100px 230px;
 }
+h3{
+    padding: 0;
+    margin: 0;
+}
 .quote, .subquote{
     padding: 0;
     margin: 0;
@@ -138,4 +142,29 @@ h2{
     text-align: end;
     font-weight: 600;
     font-size: 18px;
+}
+
+/* Fourth Section Layout */
+.fourth-section{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.call{
+    background-color: #3882f6;
+    margin: 40px 0px;
+    padding: 30px 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+    color: #E5E7EB;
+}
+#call-button{
+    border-color: white;
+    border-style: solid;
+}
+.call-text{
+    padding: 0;
+    margin: 0;
 }
