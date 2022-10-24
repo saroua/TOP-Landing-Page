@@ -1,0 +1,39 @@
+/* Color and font style by me based on TOP style sheet */
+body{
+    font-family: "Roboto";
+}
+header, .top-section, footer{
+    background-color: #1f2937;
+    color: white;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+}
+h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.dark-background-text{
+    color: #E5E7EB;
+}
+.logo{
+    font-size: 24px;
+}
+h2{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+.third-section{
+    background-color: #E5E7EB;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+/* layout */
