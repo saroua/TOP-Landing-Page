@@ -52,6 +52,25 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.dark-background-text{
+.dark-background-links{
     padding:0px 12px;
+}
+.top-section{
+    display: flex;
+    padding-top:  120px;
+    padding-bottom: 120px;
+}
+.dark-background-text{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.top-content{
+    flex: 1;
+}
+.top-image{
+    flex: 1;
 }
