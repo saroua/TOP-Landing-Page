@@ -37,3 +37,21 @@ h2{
 }
 
 /* layout */
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header, .top-section, .second-section, .third-section, .fourth-section, footer{
+    padding: 0px 150px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark-background-text{
+    padding:0px 12px;
+}
