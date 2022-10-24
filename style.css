@@ -35,6 +35,10 @@ h2{
     color: #1F2937;
     font-weight: 100;
 }
+.dark-background-links, .dark-background-text{
+    color:#969da7;
+    font-size: 18px;
+}
 
 /* layout */
 
@@ -43,8 +47,11 @@ body{
     flex-direction: column;
     margin: 0;
 }
+.logo{
+    font-weight: 900;
+}
 header, .top-section, .second-section, .third-section, .fourth-section, footer{
-    padding: 0px 150px;
+    padding: 0px 200px;
 }
 header{
     display: flex;
@@ -59,10 +66,13 @@ header{
     display: flex;
     padding-top:  120px;
     padding-bottom: 120px;
+    height: 240px;
+    gap: 50px;
 }
 .dark-background-text{
-    padding: 0;
+    padding: 12px 0px;
     margin: 0;
+    font-weight: 500;
 }
 h1{
     padding: 0;
@@ -73,4 +83,15 @@ h1{
 }
 .top-image{
     flex: 1;
+    background-color: #72777f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 8px 28px;
+    font-weight: 600;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 8px;
 }
